@@ -1,7 +1,7 @@
 Name: hunspell-gu
 Summary: Gujarati hunspell dictionaries
 Version: 20061015 
-Release: 10%{?dist}
+Release: 11%{?dist}
 Source: http://downloads.sourceforge.net/project/openofficeorg.mirror/contrib/dictionaries/gu_IN.zip
 Group: Applications/Text
 URL: http://wiki.services.openoffice.org/wiki/Dictionaries
@@ -28,6 +28,9 @@ cp -p *.dic *.aff $RPM_BUILD_ROOT/%{_datadir}/myspell
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20061015-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20061015-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
